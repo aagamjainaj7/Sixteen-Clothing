@@ -156,6 +156,9 @@ body {
   color: rgb(65, 127, 243);
   margin-bottom: 20px;
 }
+.about ul{
+  list-style:none;
+}
 .about li {
   color: rgb(90, 88, 88);
 }
@@ -235,10 +238,14 @@ body {
     z-index: 2;
     transition: 1s;
   }
+  .about{
+    text-align:center;
+  }
   .nav .menu-open {
     display: block;
     margin-left: auto;
   }
+  
   .nav .menu-close {
     display: block;
     margin: 10px;
